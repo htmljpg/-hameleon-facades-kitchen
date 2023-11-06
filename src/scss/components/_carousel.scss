@@ -1,0 +1,102 @@
+.swiper-fade .swiper-slide {
+    opacity: 0 !important;
+}
+
+.swiper-fade .swiper-slide-active {
+    opacity: 1 !important;
+}
+
+@include lg-min {
+    .swiper-slides-visible .swiper-slide {
+        opacity: 0 !important;
+        visibility: hidden;
+        transition: all .2s ease;
+    }
+    
+    .swiper-slides-visible-lg-3 .swiper-slide-active,
+    .swiper-slides-visible-lg-3 .swiper-slide-active + .swiper-slide,
+    .swiper-slides-visible-lg-3 .swiper-slide-active + .swiper-slide + .swiper-slide {
+        opacity: 1 !important;
+        visibility: visible;
+    }
+}
+
+@include xl-min {
+    .swiper-slides-visible-lg-4 .swiper-slide-active,
+    .swiper-slides-visible-lg-4 .swiper-slide-active + .swiper-slide,
+    .swiper-slides-visible-lg-4 .swiper-slide-active + .swiper-slide + .swiper-slide,
+    .swiper-slides-visible-lg-4 .swiper-slide-active + .swiper-slide + .swiper-slide + .swiper-slide {
+        opacity: 1 !important;
+        visibility: visible;
+    }
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    display: none;
+}
+
+// .swiper-button-next, .swiper-button-prev {
+//     position: static;
+//     margin: 0;
+// }
+
+.swiper-pagination.swiper-pagination-bullets {
+    position: static;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-lock {
+    display: none;
+}
+
+.swiper-pagination-bullets {
+    margin-bottom: -10px;
+}
+
+.swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 0;
+    background: none;
+    opacity: 1;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 9px;
+
+    @include lg-min {
+        padding: 10px;
+    }
+}
+
+.swiper-pagination-bullet::before {
+    content: '';
+    display: block;
+    transition: all .3s ease;
+    border-bottom: 3px solid var(--color-quaternary);
+    width: 75px;
+    transition: all .3s ease;
+    transform: rotate(0);
+}
+
+@include lg-min {
+    .swiper-pagination-bullet::before {
+        width: 82px;
+    }
+}
+
+.swiper-pagination-bullet:hover::before {
+    border-color: var(--color-accent);
+}
+
+.swiper-pagination-bullet-active::before, .swiper-pagination-bullet-active:hover::before {
+    border-color: var(--color-quinary);
+}

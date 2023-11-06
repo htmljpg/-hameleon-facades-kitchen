@@ -1,0 +1,58 @@
+
+
+.btn {
+    cursor: pointer;
+    border: none;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition: all .3s ease-out;
+    letter-spacing: inherit;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: top left;
+    line-height: 1.1429;
+
+    &:disabled, &[disabled] {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+  
+    &--default {
+        background-image: var(--bg-lngr-accent);
+        color: var(--color-white);
+        &:hover {
+          color: var(--color-white);
+        }
+        &:active {
+          color: var(--color-accent);
+        }
+        &:disabled:hover, &[disabled]:hover {
+          background-color: var(--color-accent);
+        }
+    }
+  
+    &--outline-default {
+      color: var(--color-accent);
+      border-color: var(--color-accent);
+      background-color: transparent;
+      &:hover {
+        background-color: var(--color-accent);
+        color: var(--color-white);
+      }
+      &:active {
+        background-color: var(--color-secondary-100);
+      }
+      &:disabled:hover, &[disabled]:hover {
+        background-color: transparent;
+      }
+    }
+  
+    &--primary {
+      background-image: var(--bg-lngr-primary-3);
+      color: var(--color-white);
+      &:hover {
+        color: var(--color-white);
+      }
+    }
+  }

@@ -1,0 +1,127 @@
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  [class^="icon-"],
+  [class*=" icon-"],
+  [class^="icon-"]::before,
+  [class*=" icon-"]::before {
+    display: block;
+  }
+  
+  [class^="icon-"]::before,
+  [class*=" icon-"]::before,
+  [class^="icon-"] [class^="path"]::before,
+  [class*=" icon-"] [class^="path"]::before {
+    color: inherit !important;
+  }
+
+  .icon-close:before {
+    content: "\e917";
+    color: #fff;
+  }
+  .icon-email:before {
+    content: "\e90f";
+    color: #519ef5;
+  }
+  .icon-hamburger:before {
+    content: "\e90d";
+    color: #fff;
+  }
+  .icon-deadlines:before {
+    content: "\e900";
+    color: #fff;
+  }
+  .icon-great-price:before {
+    content: "\e901";
+    color: #fff;
+  }
+  .icon-non-standard-products:before {
+    content: "\e902";
+    color: #fff;
+  }
+  .icon-payment-and-agreement:before {
+    content: "\e903";
+    color: #fff;
+  }
+  .icon-promotions-and-discounts:before {
+    content: "\e904";
+    color: #fff;
+  }
+  .icon-quality-and-guarantee:before {
+    content: "\e905";
+    color: #fff;
+  }
+  .icon-arrow-right:before {
+    content: "\e906";
+    color: #61b5f1;
+  }
+  .icon-arrow-smaill-right:before {
+    content: "\e907";
+    color: #fff;
+  }
+  .icon-arrow-small-left:before {
+    content: "\e908";
+    color: #fff;
+  }
+  .icon-big-choice:before {
+    content: "\e909";
+    color: #fff;
+  }
+  .icon-descending-price:before {
+    content: "\e90a";
+    color: #c3c3c3;
+  }
+  .icon-direct-contact:before {
+    content: "\e90b";
+    color: #fff;
+  }
+  .icon-dots:before {
+    content: "\e90c";
+    color: #fff;
+  }
+  .icon-filter:before {
+    content: "\e90e";
+    color: #787878;
+  }
+  .icon-minus:before {
+    content: "\e910";
+    color: #fff;
+  }
+  .icon-plus:before {
+    content: "\e911";
+    color: #fff;
+  }
+  .icon-quality-assurance:before {
+    content: "\e912";
+    color: #fff;
+  }
+  .icon-rub:before {
+    content: "\e913";
+    color: #b3b1b1;
+  }
+  .icon-search:before {
+    content: "\e914";
+    color: #bdbdbd;
+  }
+  .icon-tel:before {
+    content: "\e915";
+    color: #519ef5;
+  }
+  .icon-time:before {
+    content: "\e916";
+    color: #519ef5;
+  }
+  

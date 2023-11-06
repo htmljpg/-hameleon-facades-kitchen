@@ -1,0 +1,160 @@
+
+
+@include xsm-min {
+
+    .p-xsm-abs {
+      position: absolute;
+    }
+    
+    .p-xsm-fix {
+      position: fixed;
+    }
+    
+    .p-xsm-rel {
+      position: relative;
+    }
+    
+    .p-xsm-sta {
+      position: static;
+    }
+    
+    .p-xsm-sti {
+      position: sticky;
+    }
+  
+    .text-xsm-left {
+      text-align: left;
+    }
+  
+    .text-xsm-center {
+      text-align: center;
+    }
+  
+    .text-xsm-right {
+      text-align: right;
+    }
+  
+    .text-xsm-justify {
+      text-align: justify;
+    }
+  
+    .w-xsm-fl {
+      width: 100%;
+    }
+  
+    .w-xsm-au {
+      width: auto;
+    }
+  
+    .mxw-xsm-728 {
+      max-width: 728px;
+    }
+  
+    .mxw-xsm-none {
+      max-width: none;
+    }
+    
+    .pdb-xsm-68-8-p {
+      padding-bottom: 68.8%;
+    }
+  
+    @for $i from 0 to 101 {
+      .mrt-xsm-#{$i} {
+        margin-top: 1px * $i;
+      }
+      .mrt-xsm-#{$i}- {
+        margin-top: -1px * $i;
+      }
+      
+      .mrr-xsm-#{$i} {
+        margin-right: 1px * $i;
+      }
+      .mrr-xsm-#{$i}- {
+        margin-right: -1px * $i;
+      }
+    
+      .mrb-xsm-#{$i} {
+        margin-bottom: 1px * $i;
+      }
+      .mrb-xsm-#{$i}- {
+        margin-bottom: -1px * $i;
+      }
+    
+      .mrl-xsm-#{$i} {
+        margin-left: 1px * $i;
+      }
+      .mrl-xsm-#{$i}- {
+        margin-left: -1px * $i;
+      }
+    
+      .pdt-xsm-#{$i} {
+        padding-top: 1px * $i;
+      }
+      
+      .pdr-xsm-#{$i} {
+        padding-right: 1px * $i;
+      }
+    
+      .pdb-xsm-#{$i} {
+        padding-bottom: 1px * $i;
+      }
+    
+      .pdl-xsm-#{$i} {
+        padding-left: 1px * $i;
+      }
+    
+      .t-xsm-#{$i} {
+        top: 1px * $i;
+      }
+    
+      .t-xsm-#{$i}- {
+        top: -1px * $i;
+      }
+    
+      .r-xsm-#{$i} {
+        right: 1px * $i;
+      }
+    
+      .r-xsm-#{$i}- {
+        right: -1px * $i;
+      }
+    
+      .b-xsm-#{$i} {
+        bottom: 1px * $i;
+      }
+    
+      .b-xsm-#{$i}- {
+        bottom: 1px * $i;
+      }
+    
+      .l-xsm-#{$i} {
+        left: 1px * $i;
+      }
+    
+      .l-xsm-#{$i}- {
+        left: -1px * $i;
+      }
+    }
+  
+    @for $i from 0 to 101 {
+      .brtlr-xsm-#{$i} {
+        border-top-left-radius: 1px * $i;
+      }
+  
+      .brtrr-xsm-#{$i} {
+        border-top-right-radius: 1px * $i;
+      }
+  
+      .brbrr-xsm-#{$i} {
+        border-bottom-right-radius: 1px * $i;
+      }
+  
+      .brblr-xsm-#{$i} {
+        border-bottom-left-radius: 1px * $i;
+      }
+  
+      .fts-xsm-#{$i} {
+        font-size: 1px * $i;
+      }
+    }
+  }

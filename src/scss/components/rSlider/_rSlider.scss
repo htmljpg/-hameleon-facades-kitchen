@@ -1,0 +1,155 @@
+.rs-container * {
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.rs-container {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 41px;
+    position: relative;
+}
+.rs-container .rs-bg, .rs-container .rs-selected {
+    background-color: var(--color-quaternary-3);
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -1.5px;
+    width: 100%;
+    border-radius: 3px;
+}
+.rs-container .rs-selected {
+    background-color: var(--color-accent-3);
+    transition: all 0.2s linear;
+    width: 0;
+}
+.rs-container.disabled .rs-selected {
+    background-color: #ccc;
+    border-color: #bbb;
+}
+.rs-container .rs-pointer {
+    cursor: pointer;
+    left: -10px;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    transition: all 0.2s linear;
+    border-radius: 50%;
+    border: 4px solid var(--color-white);
+    box-shadow: var(--bxshw-quaternary);
+    z-index: 100;
+}
+.rs-container.disabled .rs-pointer {
+    border-color: #ccc;
+}
+
+.rs-container .rs-pointer::before {
+    content: '';
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: inherit;
+    background-color: var(--color-accent);
+}
+
+.rs-container .rs-pointer[data-dir="left"]::after,
+.rs-container .rs-pointer[data-dir="right"]::after {
+    display: block;
+    font-family: "icons" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11px;
+    color: var(--color-white);
+}
+
+.rs-container .rs-pointer[data-dir="left"]::after {
+    content: "\e908";
+}
+
+.rs-container .rs-pointer[data-dir="right"]::after {
+    content: "\e907";
+}
+
+.rs-container.disabled .rs-pointer {
+    cursor: default;
+}
+.rs-container.sliding .rs-selected,
+.rs-container.sliding .rs-pointer {
+    transition: none;
+}
+.rs-container .rs-scale {
+    left: 0;
+    position: absolute;
+    top: 5px;
+    white-space: nowrap;
+    opacity: 0;
+}
+.rs-container .rs-scale span {
+    float: left;
+    position: relative;
+}
+ .rs-container .rs-scale span::before {
+    background-color: #ededed;
+    content: "";
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 1px;
+}
+.rs-container.rs-noscale span::before {
+    display: none;
+}
+.rs-container.rs-noscale span:first-child::before,
+.rs-container.rs-noscale span:last-child::before {
+    display: block;
+}
+.rs-container .rs-scale span:last-child {
+    margin-left: -1px;
+    width: 0px;
+}
+.rs-container .rs-scale span ins {
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.rs-container.disabled .rs-scale span ins {
+    color: #999;
+}
+.rs-tooltip {
+    color: #333;
+    width: auto;
+    min-width: 60px;
+    height: 30px;
+	position: relative;
+	background: #fff;
+	border: 1px solid #00969b;
+    border-radius: 3px;
+    position: absolute;
+    transform: translate(-50%, -35px);
+    left: 13px;
+    text-align: center;
+    font-size: 13px;
+    padding: 6px 10px 0;
+}
+.rs-container.disabled .rs-tooltip {
+    border-color: #ccc;
+    color: #999;
+}

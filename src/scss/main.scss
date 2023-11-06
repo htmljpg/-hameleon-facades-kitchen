@@ -1,0 +1,30 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "functions";
+@import "fonts";
+@import "vendor";
+@import "./components/carousel";
+@import "./components/btn";
+@import "settings";
+
+@import "settings-xsm";
+@import "settings-sm";
+@import "settings-md";
+@import "settings-lg";
+@import "settings-xl";
+@import "settings-xxl";
+
+
+@import "./components/select";
+@import "./components/rSlider/rSlider";
+@import "./components/icons/icons";
+@import "./components/colors";
+@import "./components/keyframes";
+@import "./components/typography";
+@import "./components/grid";
+
+// подключения компонентов страницы
+@import "./components/nav";
+@import "./components/intro";
+@import "./components/missions";

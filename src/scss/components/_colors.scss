@@ -1,0 +1,418 @@
+// colors
+
+.clr-inh {
+    color: inherit;
+}
+
+.clr-accent, .clr-accent-h:hover {
+    color: var(--color-accent);
+}
+
+.clr-accent-2, .clr-accent-2-h:hover {
+    color: var(--color-accent-2);
+}
+
+.clr-accent-3, .clr-accent-3-h:hover {
+    color: var(--color-accent-3);
+}
+
+.clr-primary, .clr-primary-h:hover {
+    color: var(--color-primary);
+}
+
+.clr-quaternary, .clr-quaternary-h:hover {
+    color: var(--color-quaternary);
+}
+
+.clr-quaternary-2, .clr-quaternary-2-h:hover {
+    color: var(--color-quaternary-2);
+}
+
+.clr-quaternary-3, .clr-quaternary-3-h:hover {
+    color: var(--color-quaternary-3);
+}
+
+.clr-quaternary-4, .clr-quaternary-4-h:hover {
+    color: var(--color-quaternary-4);
+}
+
+.clr-quaternary-5, .clr-quaternary-5-h:hover {
+    color: var(--color-quaternary-5);
+}
+
+.clr-quaternary-6, .clr-quaternary-6-h:hover {
+    color: var(--color-quaternary-6);
+}
+
+.clr-quaternary-7, .clr-quaternary-7-h:hover {
+    color: var(--color-quaternary-7);
+}
+
+.clr-quinary, .clr-quinary-h:hover {
+    color: var(--color-quinary);
+}
+
+.clr-secondary, .clr-secondary-h:hover {
+    color: var(--color-secondary);
+}
+
+.clr-secondary-2, .clr-secondary-2-h:hover {
+    color: var(--color-secondary-2);
+}
+
+.clr-secondary-3, .clr-secondary-3-h:hover {
+    color: var(--color-secondary-3);
+}
+
+.clr-secondary-5, .clr-secondary-5-h:hover {
+    color: var(--color-secondary-5);
+}
+
+.clr-secondary-8, .clr-secondary-8-h:hover {
+    color: var(--color-secondary-8);
+}
+
+.clr-secondary-9, .clr-secondary-9-h:hover {
+    color: var(--color-secondary-9);
+}
+
+.clr-secondary-10, .clr-secondary-10-h:hover {
+    color: var(--color-secondary-10);
+}
+
+.clr-secondary-13, .clr-secondary-13-h:hover {
+    color: var(--color-secondary-10);
+}
+
+.clr-tertiary, .clr-tertiary-h:hover {
+    color: var(--color-tertiary);
+}
+
+.clr-tertiary-2, .clr-tertiary-2-h:hover {
+    color: var(--color-tertiary-2);
+}
+
+.clr-unvalidate {
+    color: var(--color-unvalidate);
+}
+
+.clr-black, .clr-black-h:hover {
+    color: var(--color-black);
+}
+
+.clr-black-2, .clr-black-2-h:hover {
+    color: var(--color-black-2);
+}
+
+.clr-white, .clr-white-h:hover {
+    color: var(--color-white);
+}
+
+.clr-gray, .clr-gray-h:hover {
+    color: var(--color-gray);
+}
+
+.clr-gray-2, .clr-gray-2-h:hover {
+    color: var(--color-gray-2);
+}
+
+.clr-gray-3, .clr-gray-3-h:hover {
+    color: var(--color-gray-3);
+}
+
+.clr-tra {
+    color: transparent;
+}
+
+.clr-unvalidate {
+    color: var(--color-unvalidate);
+}
+
+// background color
+
+.bg-tra, .bg-tra-h:hover {
+    background-color: transparent;
+}
+
+.bg-clr-accent, .bg-clr-accent-h:hover {
+    background-color: var(--color-accent);
+}
+
+.bg-clr-accent-2, .bg-clr-accent-2-h:hover {
+    background-color: var(--color-accent-2);
+}
+
+.bg-clr-accent-3, .bg-clr-accent-3-h:hover {
+    background-color: var(--color-accent-3);
+}
+
+.bg-clr-accent-4, .bg-clr-accent-4-h:hover {
+    background-color: var(--color-accent-4);
+}
+
+.bg-clr-primary, .bg-clr-primary-h:hover {
+    background-color: var(--color-primary);
+}
+
+.bg-clr-secondary {
+    background-color: var(--color-secondary);
+}
+
+.bg-clr-quaternary {
+    background-color: var(--color-quaternary);
+}
+
+.bg-clr-quaternary-2 {
+    background-color: var(--color-quaternary-2);
+}
+
+.bg-clr-quaternary-3 {
+    background-color: var(--color-quaternary-3);
+}
+
+.bg-clr-quaternary-4 {
+    background-color: var(--color-quaternary-4);
+}
+
+.bg-clr-quaternary-5 {
+    background-color: var(--color-quaternary-5);
+}
+
+.bg-clr-secondary-4 {
+    background-color: var(--color-secondary-4);
+}
+
+.bg-clr-secondary-5 {
+    background-color: var(--color-secondary-5);
+}
+
+.bg-clr-secondary-6 {
+    background-color: var(--color-secondary-6);
+}
+
+.bg-clr-secondary-7 {
+    background-color: var(--color-secondary-7);
+}
+
+.bg-clr-secondary-8 {
+    background-color: var(--color-secondary-8);
+}
+
+.bg-clr-secondary-9 {
+    background-color: var(--color-secondary-9);
+}
+
+.bg-clr-secondary-10 {
+    background-color: var(--color-secondary-10);
+}
+
+.bg-clr-secondary-11 {
+    background-color: var(--color-secondary-11);
+}
+
+.bg-clr-tertiary {
+    background-color: var(--color-tertiary);
+}
+
+.bg-clr-tertiary-2 {
+    background-color: var(--color-tertiary-2);
+}
+
+.bg-clr-tertiary-3 {
+    background-color: var(--color-tertiary-3);
+}
+
+.bg-clr-white, .bg-clr-white-h:hover {
+    background-color: var(--color-white);
+}
+
+.bg-clr-black {
+    background-color: var(--color-black);
+}
+
+.bg-clr-black-2 {
+    background-color: var(--color-black-2);
+}
+
+.bg-clr-black-3 {
+    background-color: var(--color-black-3);
+}
+
+.bg-clr-green {
+    background-color: var(--color-green);
+}
+
+.bg-clr-tra {
+    background-color: transparent;
+}
+
+.bg-clr-crc {
+    background-color: currentColor;
+}
+  
+.bg-lngr-accent, .bg-lngr-accent-h:hover {
+    background-image: var(--bg-lngr-accent);
+}
+  
+.bg-lngr-primary {
+    background: var(--bg-lngr-primary);
+}
+
+.bg-lngr-primary-2 {
+    background: var(--bg-lngr-primary-2);
+}
+
+.bg-lngr-quaternary {
+    background: var(--bg-lngr-quaternary);
+}
+
+.bg-lngr-quaternary-2 {
+    background: var(--bg-lngr-quaternary-2);
+}
+
+.bg-prg {
+    background-image: linear-gradient(130deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+    background-size: 40px 40px;
+}
+
+// filter box-shadow
+
+.bxshw-quaternary {
+    box-shadow: var(--bxshw-quaternary);
+}
+
+.bxshw-green {
+    box-shadow: var(--bxshw-green);
+}
+  
+.fltr-ds-primary {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+  
+.fltr-ds-tertiary {
+    filter: drop-shadow(0px 0px 4px rgba(1, 255, 23, 0.23));}
+  
+.fltr-ds-green {
+    filter: var(--fltr-ds-green)
+}
+
+// border color
+.clr-accent-br, .clr-accent-br-h:hover, .clr-accent-br-f:focus {
+    border-color: var(--color-accent);
+}
+
+.clr-primary-br, .clr-primary-br-h:hover, .clr-primary-br-f:focus {
+    border-color: var(--color-primary);
+}
+
+.clr-secondary-br {
+    border-color: var(--color-secondary);
+}
+
+.clr-secondary-1-br {
+    border-color: var(--color-secondary-1);
+}
+
+.clr-secondary-2-br {
+    border-color: var(--color-secondary-2);
+}
+
+.clr-secondary-7-br {
+    border-color: var(--color-secondary-7);
+}
+
+.clr-secondary-8-br {
+    border-color: var(--color-secondary-8);
+}
+
+.clr-secondary-12-br {
+    border-color: var(--color-secondary-12);
+}
+
+.clr-tertiary-br {
+    border-color: var(--color-tertiary);
+}
+
+.clr-green-br {
+    border-color: var(--color-green);
+}
+
+.clr-white-br, .clr-white-br-h:hover {
+    border-color: var(--color-white);
+}
+
+.clr-black-br {
+    border-color: var(--color-black);
+}
+
+.clr-quaternary-br {
+    border-color: var(--color-quaternary);
+}
+
+.clr-quaternary-2-br {
+    border-color: var(--color-quaternary-2);
+}
+
+.clr-quaternary-3-br {
+    border-color: var(--color-quaternary-3);
+}
+
+.clr-quaternary-4-br {
+    border-color: var(--color-quaternary-4);
+}
+
+.clr-quaternary-5-br {
+    border-color: var(--color-quaternary-5);
+}
+
+.clr-quaternary-6-br {
+    border-color: var(--color-quaternary-6);
+}
+
+.clr-quaternary-7-br {
+    border-color: var(--color-quaternary-7);
+}
+
+.clr-crc-br {
+    border-color: currentColor;
+}
+
+.clr-tra-br {
+    border-color: transparent;
+}
+
+.clr-unvalidate-br {
+    border-color: var(--color-unvalidate);
+}
+
+@include sm-min {
+    .clr-sm-primary, .clr-sm-primary-h:hover {
+        color: var(--color-primary);
+    }
+
+    .clr-sm-secondary, .clr-sm-secondary-h:hover {
+        color: var(--color-secondary);
+    }
+}
+
+@include lg-min {
+    .clr-lg-secondary-2 {
+        color: var(--color-secondary-2);
+    }
+
+    .clr-lg-secondary-2-br {
+        border-color: var(--color-secondary-2);
+    }
+
+    .bg-clr-lg-white, .bg-clr-lg-white-h:hover {
+        background-color: var(--color-white);
+    }
+
+    .bg-clr-lg-accent, .bg-clr-lg-accent-h:hover {
+        background-color: var(--color-accent);
+    }
+
+    .bg-clr-lg-quaternary-5, .bg-clr-lg-quaternary-5-h:hover {
+        background-color: var(--color-quaternary-5);
+    }
+}
